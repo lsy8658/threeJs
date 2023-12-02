@@ -10,7 +10,7 @@ export default function MyElement() {
   return (
     <>
       <OrbitControls />
-      <directionalLight position={[1, 1, 1]} intensity={0.56} />
+      <directionalLight castShadow position={[1, 1, 1]} intensity={0.56} />
       <axesHelper scale={10} />
       <mesh
         ref={refMesh}

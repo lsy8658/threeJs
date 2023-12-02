@@ -1,11 +1,11 @@
 import "./App.css";
 import { Canvas } from "@react-three/fiber";
-import MyElement3 from "./components/MyElement3";
+import MyElement5 from "./components/MyElement5";
 function App() {
   return (
     <>
       <Canvas>
-        <MyElement3 />
+        <MyElement5 />
       </Canvas>
     </>
   );
